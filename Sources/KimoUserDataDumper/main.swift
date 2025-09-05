@@ -1,9 +1,6 @@
 // (c) 2025 ShikiSuen (BSD-3-Clause License).
 // ====================
 // This code is released under the BSD-3-Clause license
-// 
-// Based on vChewing Project's KimoDataReader implementation
-// Original code (c) 2021 and onwards The vChewing Project (MIT-NTL License)
 
 import Foundation
 import ObjcKimoCommunicator

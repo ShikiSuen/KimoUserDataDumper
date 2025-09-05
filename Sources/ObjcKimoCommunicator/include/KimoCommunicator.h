@@ -2,9 +2,6 @@
 // ====================
 // This code is released under the BSD-3-Clause license
 // 
-// Based on vChewing Project's KimoDataReader implementation
-// Original code (c) 2021 and onwards The vChewing Project (MIT-NTL License)
-// 
 // 免責聲明：
 // 與奇摩輸入法有關的原始碼是由 Yahoo 奇摩以 `SPDX Identifier: BSD-3-Clause` 釋出的，
 // 但敝模組只是藉由其 Protocol API 與該當程式進行跨執行緒通訊，所以屬於合理使用範圍。
