@@ -98,7 +98,7 @@ This application uses NSConnection (deprecated but still functional) to communic
 - **BPMF**: The phonetic key (Bopomofo symbols)  
 - **Text**: The corresponding text/phrase
 
-The implementation is based on the vChewing Project's KimoDataReader package, specifically designed to work with Yahoo KeyKey IME 2012 final version.
+The implementation is specifically designed to work with Yahoo KeyKey IME 2012 final version.
 
 ### Architecture
 
@@ -133,8 +133,6 @@ The implementation is based on the vChewing Project's KimoDataReader package, sp
 
 This project is licensed under the BSD 3-Clause License. See [LICENSE](LICENSE) for details.
 
-The implementation is based on the vChewing Project's KimoDataReader which is released under MIT-NTL License.
-
 ## Disclaimer
 
 與奇摩輸入法有關的原始碼是由 Yahoo 奇摩以 `SPDX Identifier: BSD-3-Clause` 釋出的，但敝模組只是藉由其 Protocol API 與該當程式進行跨執行緒通訊，所以屬於合理使用範圍。
@@ -143,6 +141,4 @@ The implementation is based on the vChewing Project's KimoDataReader which is re
 
 ## Credits
 
-- Based on [vChewing Project's KimoDataReader](https://github.com/vChewing/vChewing-macOS)
-- Original vChewing implementation: (c) 2021 and onwards The vChewing Project (MIT-NTL License)
-- KimoUserDataDumper: (c) 2025 ShikiSuen (BSD-3-Clause License)
+(c) 2025 ShikiSuen (BSD-3-Clause License)
