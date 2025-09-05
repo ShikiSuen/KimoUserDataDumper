@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"type": "swift",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:KimoUserDataDumper}",
+			"name": "Debug KimoUserDataDumper",
+			"program": "${workspaceFolder:KimoUserDataDumper}/.build/debug/KimoUserDataDumper",
+			"preLaunchTask": "swift: Build Debug KimoUserDataDumper"
+		},
+		{
+			"type": "swift",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:KimoUserDataDumper}",
+			"name": "Release KimoUserDataDumper",
+			"program": "${workspaceFolder:KimoUserDataDumper}/.build/release/KimoUserDataDumper",
+			"preLaunchTask": "swift: Build Release KimoUserDataDumper"
+		}
+	]
+}
