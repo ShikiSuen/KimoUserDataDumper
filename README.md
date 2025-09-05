@@ -4,14 +4,15 @@ A Swift-written CLI application to export all user phrases from Yahoo KeyKey IME
 
 ## Requirements
 
-- **macOS 10.15 or later** (This application is macOS-only)
+- **macOS 10.15 or later** for the main Swift version
+- **macOS 10.10 or later** for the pure Objective-C version (located in `ForMojaveAndEarlier/`)
 - **Yahoo KeyKey IME** installed and running
-- **Swift 5.9 or later**
+- **Swift 5.9 or later** (for the main version)
 - **Xcode Command Line Tools**
 
 ## Installation
 
-### Building from Source
+### Swift Version (Main - Recommended)
 
 ```bash
 git clone https://github.com/ShikiSuen/KimoUserDataDumper.git
@@ -20,6 +21,18 @@ swift build -c release
 ```
 
 The compiled executable will be located at `.build/release/KimoUserDataDumper`.
+
+### Pure Objective-C Version (For Older Systems)
+
+For macOS Mojave (10.14) and earlier systems, use the pure Objective-C version:
+
+```bash
+git clone https://github.com/ShikiSuen/KimoUserDataDumper.git
+cd KimoUserDataDumper/ForMojaveAndEarlier
+make
+```
+
+See `ForMojaveAndEarlier/README.md` for detailed instructions on the pure Objective-C version.
 
 ## Usage
 
@@ -91,6 +104,7 @@ The implementation is based on the vChewing Project's KimoDataReader package, sp
 
 - `ObjcKimoCommunicator`: Objective-C module handling NSConnection communication
 - `KimoUserDataDumper`: Swift CLI application with multiple output format support
+- `ForMojaveAndEarlier/`: Pure Objective-C version for compatibility with older macOS systems
 
 ## Prerequisites
 
