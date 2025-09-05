@@ -1,0 +1,19 @@
+# Swift Package Manager
+.build/
+Build/
+Packages/
+Package.resolved
+*.xcodeproj
+
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+
+# Swift
+*.swiftpm/
+ForMojaveAndEarlier/KimoUserDataDumper
